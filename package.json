@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"event-stream",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "event-stream",
+    "description": "api documentation for [event-stream (v3.3.4)](http://github.com/dominictarr/event-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-event-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-event-stream)",
     "devDependencies": {
-        "event-stream": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "event-stream": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-event-stream",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-event-stream",
+    "keywords": [
+        "documentation",
+        "event-stream"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_event_stream.js",
+    "name": "npmdoc-event-stream",
+    "nameAlias": "npmdoc_event_stream",
+    "nameOriginal": "npmdoc-event-stream",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-event-stream.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
