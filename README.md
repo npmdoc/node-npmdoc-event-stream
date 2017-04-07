@@ -1,11 +1,13 @@
-# api documentation for  [event-stream (v3.3.4)](http://github.com/dominictarr/event-stream)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-event-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-event-stream)
+# api documentation for  [event-stream (v3.3.4)](http://github.com/dominictarr/event-stream)  [![npm package](https://img.shields.io/npm/v/npmdoc-event-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-event-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-event-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-event-stream)
 #### construct pipes of streams of events
 
 [![NPM](https://nodei.co/npm/event-stream.png?downloads=true)](https://www.npmjs.com/package/event-stream)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-event-stream/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-event_stream_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-event-stream/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-event-stream/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-event-stream_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-event-stream/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-event-stream/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-event-stream/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-event-stream/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
