@@ -1,4 +1,7 @@
-# api documentation for  [event-stream (v3.3.4)](http://github.com/dominictarr/event-stream)  [![npm package](https://img.shields.io/npm/v/npmdoc-event-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-event-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-event-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-event-stream)
+# npmdoc-event-stream
+
+#### basic api documentation for  [event-stream (v3.3.4)](http://github.com/dominictarr/event-stream)  [![npm package](https://img.shields.io/npm/v/npmdoc-event-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-event-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-event-stream.svg)](https://travis-ci.org/npmdoc/node-npmdoc-event-stream)
+
 #### construct pipes of streams of events
 
 [![NPM](https://nodei.co/npm/event-stream.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/event-stream)
@@ -87,7 +90,8 @@
             ]
         }
     },
-    "version": "3.3.4"
+    "version": "3.3.4",
+    "bin": {}
 }
 ```
 
